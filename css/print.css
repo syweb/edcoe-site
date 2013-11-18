@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*------------------------------------------------- |
+|  Document    :  CSS                               |
+|  WebSite     :  EDCO SELPA                        |
+|  Creator     :  Chintan Sheth                     |
+|  Date        :                                    |
+|  Updater     :  Chintan Sheth                     |
+|  Last Update :                                    |
+|------------------------------------------------- */
+
+.header,
+.banner,
+.footer,
+.sidebar{display:none;}
+.content-col75pr {display:''; width:7.2in;}
+
+
+

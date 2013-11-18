@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*------------------------------------------------- |
+|  Document    :  CSS                               |
+|  WebSite     :  EDCO                              |
+|  Creator     :  Chintan Sheth                     |
+|  Date        :                                    |
+|  Updater     :  Chintan Sheth                     |
+|  Last Update :                                    |
+|------------------------------------------------- */
+
+@media only screen  and (min-device-width: 768px) and (max-device-width: 1024px){
+  .wraper{min-width:760px; width:760px; margin:auto; }
+  .header{height:290px; background-position: bottom;}
+  .header-col1{width:100%; } 
+  .header-col2{width:100%; }
+  .search-n-contect div{float:none; margin:0 0 0 30px;}  
+  
+  .banner{height:auto;}
+  .banner-col1{width:100%; height:auto;}
+  .banner-col2{width:100%; height:auto;}
+  
+  .content-col75pr img{max-width:100%;}
+  
+  .footer{height:auto;}
+}
+
+@media only screen  and (min-device-width:320px) and (max-device-width: 767px){
+  .wraper{min-width:100%; width:320px; margin:auto; }
+  .header{height:290px; background-position: bottom;}
+  .header-col1{width:100%; } 
+  .header-col2{width:100%; }
+  .search-n-contect div{float:none; margin:0 0 0 30px;}  
+  
+  .banner{height:auto;}
+  .banner-col1{width:100%; height:auto;}
+  .banner-col2{display:none;}
+  
+  .footer{height:auto; background-position:bottom;} 
+  
+  .content-col25pr{width:100%;}
+  .print-email{display:none;}
+  .colheight{height:auto:!important;}
+  .content-col75pr{ padding:10px; width:100%;}
+}
+
+@media only screen  and (min-device-width:700px) and (max-device-width: 767px){
+}
+
+@media only screen  and (min-device-width:600px) and (max-device-width: 699px){
+}
+
+@media only screen  and (min-device-width:500px) and (max-device-width: 599px){
+}
+
+@media only screen  and (min-device-width:400px) and (max-device-width: 499px){
+}
+
+@media only screen  and (min-device-width:320px) and (max-device-width: 399px){
+}
+

@@ -1,0 +1,92 @@
+<div class="banner"><!-- banner -->
+  <div class="banner-col1">
+    {% include bannermenu.html %}
+  </div>
+  
+  <div class="banner-col2">
+    <ul >
+      {% if page.path == 'about_EDCOE.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>About EDCOE </h1>
+          <p>Preparing our Students for Future Success </p>
+        </div>
+      </li>      
+      {% elsif page.path == 'superintendents_office.html' %}
+      <li>
+        <img src="images/banner.png" alt=""  />
+        <div class="banner-text">
+          <h1>Superintendent’s Office</h1>
+          <p>The future of our country rests in our children – their education is our greatest responsibility</p>
+        </div>
+      </li>
+      {% elsif page.path == 'schools_districts.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>Schools & Districts</h1>
+          <p>Foundations for the Future</p>
+        </div>
+      </li>
+      {% elsif page.path == 'departments_services.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>Departments & Services</h1>
+          <p>Our Partnership with Students, Families and the Community</p>
+        </div>
+      </li>
+      {% elsif page.path == 'educational_services.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>Educational Services</h1>
+          <p>Educational Excellence for the Challenges of Tomorrow</p>
+        </div>
+      </li>
+      {% elsif page.path == 'educators.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>Educators</h1>
+          <p>Professional Education, Innovation, Information and Training</p>
+        </div>
+      </li>
+      {% elsif page.path == 'contactus.html' %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>Contact Us</h1>
+          <p>Achieving Educational Excellence for Student Success</p>
+        </div>
+      </li>
+      {% else %}  
+      <li>
+        <img src="images/banner.png" alt="" />
+        <div class="banner-text">
+          <h1>EDCOE</h1>
+          <p>Excellence in Education for the 21st Century</p>
+        </div>
+      </li>  
+      {% endif %}
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</div><!-- /banner -->
+
+
+
+  
+
+
+
+
+
+
+
+
