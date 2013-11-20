@@ -238,13 +238,11 @@ margin-bottom:5px;
   color:#fff;
   height:70px;
   right:2%;
-  left:27%;
+  left:2%;
 }
 .banner .banner-text h1{ font-family:'Raleway', sans-serif; font-weight:bold; font-size:24px; color:#f09f1f; margin:0px;}
 .banner .banner-text p{margin-bottom:0px; font-size:18px; font-style:italic;}
-.banner.only-menu{width:100%; margin:0;} 
-.banner.only-menu .banner-col1{width:100%;}
-
+.banner .banner-col2 ul li{position:relative;}
 
 .label{
   margin-bottom:5px;
