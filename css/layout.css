@@ -234,12 +234,17 @@ margin-bottom:5px;
 .banner .banner-text{ 
   position:absolute; 
   background:url('../images/bg-grn.png'); 
-  padding:12px 20px; margin:0 3%; width:90%; top:285px;
+  padding:12px 20px; top:285px;
   color:#fff;
   height:70px;
+  right:2%;
+  left:27%;
 }
 .banner .banner-text h1{ font-family:'Raleway', sans-serif; font-weight:bold; font-size:24px; color:#f09f1f; margin:0px;}
 .banner .banner-text p{margin-bottom:0px; font-size:18px; font-style:italic;}
+.banner.only-menu{width:100%; margin:0;} 
+.banner.only-menu .banner-col1{width:100%;}
+
 
 .label{
   margin-bottom:5px;
@@ -253,6 +258,8 @@ margin-bottom:5px;
   border-bottom:1px solid #d0d0d0;
   border-left:1px solid #aaa;
 }
+
+
 .textarea{
   width:240px;
   padding:10px;

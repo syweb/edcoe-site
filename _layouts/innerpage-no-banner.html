@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>
+      {{ page.title }}
+    </title>
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"> </script>
+    <script src="javascripts/application.js" type="text/javascript"> </script>
+
+    <!-- bxSlider Javascript file -->
+    <script src="slider/jquery.bxslider.min.js" type="text/javascript"></script>
+    <!-- bxSlider CSS file -->
+    <link href="slider/jquery.bxslider.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+        $('.bxslider').bxSlider({
+          auto: true
+        });
+
+        
+        
+        //dropdown();
+        triggerPopup();
+        tableodd();
+        colheight();
+        
+      });
+    </script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "f13e7f57-496e-44ce-8e18-6252b17ab450", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-5782107-6']);
+      _gaq.push(['_setDomainName', '.edcoe.org']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  
+  </head>
+  <body class="innerpage">
+    <div class="wraper"><!-- wrapper  -->
+      <!-- header -->
+      {% include header.html %}
+      <!-- /header -->
+        <!--  Content Part Start -->
+        <div class="content ">
+          {% include sidebar.html %}
+          {{ content }}
+          <div class="sptr1"></div>
+        </div><!-- /content -->
+        <!-- footer -->
+        {% include footer.html%}
+        <!-- /Footer -->
+    </div><!-- /wrapper -->
+  </body>
+</html>
+
