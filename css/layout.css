@@ -41,6 +41,10 @@ a:active{color:#008b07; text-decoration:none;}
 .white a:hover{color:#f1a020; text-decoration:none;}
 .white a:active{color:#fff; text-decoration:none;}
 
+.redtext{
+  color:#ff0000;
+}
+
 
 /*--  text style --*/
 a.readmore{ color:#f09f1f; text-decoration:none;  margin-bottom:20px; text-transform:uppercase;}
@@ -72,7 +76,7 @@ a.readmore:active{color:#f09f1f; text-decoration:none;}
 .sptr-line{background: url('../images/bg-line.png') left 0 repeat-y;}
 .sptr-line-x{border-top:1px solid #ccc; margin-top:20px; padding-top:20px;}
 
-.pad-all-20{padding:20px;}
+
 
 .content{padding:20px 0; margin:0;}
 .innerpage .content{padding:0; margin:0;}
@@ -83,6 +87,7 @@ a.readmore:active{color:#f09f1f; text-decoration:none;}
   box-sizing: border-box;         /* Opera/IE 8+ */
   border-left:1px solid  #ccc;
 }
+
 .content-col75pr{ width:75%; padding:30px 30px 30px 60px; float:left; position:relative;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -101,6 +106,10 @@ a.readmore:active{color:#f09f1f; text-decoration:none;}
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
+
+.pad-all-20{padding:20px;}
+.pad-sidebar{padding:10px 10px 10px 30px;}
+.pad-all-0{padding:0px;}
 
 .brd-none{border:none;}
 .title-type1{background:#f09f1f; position:absolute; padding:5px; top:0px; 
