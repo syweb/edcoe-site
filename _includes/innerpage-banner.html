@@ -7,9 +7,9 @@
     <ul >
       {% if page.path == 'about_EDCOE.html' %}  
       <li>
-        <img src="images/banner.png" alt="" />
+        <img src="images/{{page.banner}}" alt="" />
         <div class="banner-text">
-          <h1>About Edcoe </h1>
+          <h1>About EDCOE </h1>
           <p>Preparing our Students for Future Success </p>
         </div>
       </li>      
@@ -53,9 +53,17 @@
           <p>Professional Education, Innovation, Information and Training</p>
         </div>
       </li>
+      {% elsif page.path == 'job_openings.html' %}  
+      <li>
+        <img src="images/{{page.banner}}" alt="" />
+        <div class="banner-text">
+          <h1>Job Openings</h1>
+          <p>Committed to Supporting Student Success</p>
+        </div>
+      </li>
       {% elsif page.path == 'contactus.html' %}  
       <li>
-        <img src="images/banner.png" alt="" />
+        <img src="images/{{page.banner}}" alt="" />
         <div class="banner-text">
           <h1>Contact Us</h1>
           <p>Achieving Educational Excellence for Student Success</p>
@@ -65,7 +73,7 @@
       <li>
         <img src="images/banner.png" alt="" />
         <div class="banner-text">
-          <h1>Edcoe</h1>
+          <h1>EDCOE</h1>
           <p>Excellence in Education for the 21st Century</p>
         </div>
       </li>  

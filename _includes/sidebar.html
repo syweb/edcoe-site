@@ -10,15 +10,37 @@
         {% include  educators_left.html %}
       {% elsif page.left == 'parents_left' %}
         {% include  parents_left.html %}
+      {% elsif page.left == 'schools_districts_left' %}
+        {% include  schools_districts_left.html %}
+      {% elsif page.left == 'employees_left' %}
+        {% include  employees_left.html %}
+      {% elsif page.left == 'superintendents_office_left' %}
+        {% include  superintendents_office_left.html %}
+      {% elsif page.left == 'spotlight_left' %}
+        {% include  spotlight_left.html %}
+      {% elsif page.left == 'departments_services_left' %}
+        {% include  departments_services_left.html %}
+      {% elsif page.left == 'job_openings_left' %}
+        {% include  job_openings_left.html %}
+      {% elsif page.left == 'educational_services_left' %}
+        {% include  educational_services_left.html %}
+      {% elsif page.left == 'contactus_left' %}
+        {% include  contactus_left.html %}
       {% else %}  
-        <h3>Educational Services</h3>
+        <!-- <h3>EDCOE/District <br>Personnel Search </h3> -->
         <ul>
+          <li><a href="/index.html" >Home</a></li>
+          <li><a href="/spotlight.html" >Spotlight</a></li>
+          <li><a href="/news.html" >News</a></li>
+          <li><a href="/calendar.html" >Calendar</a></li>
           <li><a href="http://aded.edcoe.org/" target="_blank">Adult Education</a></li>
           <li><a href="http://edcoe.org/programs/juvenile_hall/index.html" target="_blank">Blue Ridge School</a></li>
           <li><a href="http://edcoe.org/programs/csrop/index.html" target="_blank">Central Sierra ROP</a></li>
           <li><a href="http://charter.edcoe.org/" target="_blank">Charter Community School</a></li>
           <li><a href="http://eday.edcoe.org/" target="_blank">Charter Extended Day Program</a></li>
           <li><a href="http://edcoe.org/departments/child_development/index.html" target="_blank">Child Development Programs</a></li>
+          <!-- <li><a href="http://directory.edcoe.k12.ca.us/new/default2.asp" target="_blank">County / District Personnel Search</a></li> -->
+          <li><a href="http://directory.edcoe.k12.ca.us/new/default2.asp" target="_blank">EDCOE/District Personnel Search</a></li>
           <li><a href="http://www.edcoecharterselpa.org/" target="_blank">El Dorado County Charter SELPA</a></li>
           <li><a href="http://edcoe.org/programs/ecs/index.html" target="_blank">Early Childhood Specialists</a></li>
           <li><a href="http://aded.edcoe.org/" target="_blank">English as a Second Language Program (ESL)</a></li>
@@ -36,6 +58,16 @@
           <li><a href="http://edcoe.org/departments/selpa/index.html" target="_blank">SELPA (Special Education Local Plan Area)</a></li>
           <li><a href="http://edcoe.org/departments/special_education/index.html" target="_blank">Special Education Services</a></li>
           <li><a href="http://edcoe.org/programs/workability/index.html" target="_blank">Workability</a></li>
+        </ul>
+        <h3>Quicklinks</h3>
+        <ul>
+          <li><a href="/press_room.html" >Press Room</a></li>
+          <li><a href="/resources.html" >Resources</a></li>
+          <li><a href="/budget.html" >Budget</a></li>
+          <li><a href="/parents.html" >For Parents</a></li>
+          <li><a href="http://www.edc-scholarships.org/" target="_blank">Scholarships</a></li>
+          <li><a href="/employees.html" >For Employees</a></li>
+          <li><a href="https://subfinder.edcoe.org/wc2/" target="_blank">Subfinder</a></li>
         </ul>
       {% endif %}
     </div>

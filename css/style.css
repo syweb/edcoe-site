@@ -23,8 +23,12 @@ p{margin:0px 0 10px 0; }
 
 .editor ul{margin:0 0 10px 0; background:none;}
 .editor ul ul{padding-left:20px;}
-.editor ul li{padding:4px 0 4px 20px; background: url('../images/bullet.png') left 10px no-repeat; }
+.editor ul li{padding:4px 0 4px 20px; background: url('../images/bullet.png') left 8px no-repeat; }
 .editor ul li ul{padding-left:0px;}
+
+.editor ul.sq li, li.sq{background: url('../images/bullet1.png') left 10px no-repeat !important; }
+
+
 .editor ol{margin:10px 0 10px 0;}
 .editor ol li{padding:0px 0 6px 0px; list-style-type: decimal; margin-left:15px; .margin-left:20px;}
 
