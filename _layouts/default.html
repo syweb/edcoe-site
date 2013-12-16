@@ -24,10 +24,20 @@
     <script type="text/javascript">
       $(document).ready(function(){
         
-        $('.bxslider').bxSlider({
+        /*$('.bxslider').bxSlider({
           auto: true
+        });*/
+        
+        slider = $('.bxslider').bxSlider({
+          onSliderLoad: function(){
+            // do funky JS stuff here
+            $('.site-menu li').on( "mouseover", function(){
+              if($(this).index() != 8 ){
+                slider.goToSlide( $(this).index() );
+              }
+            })
+          }
         });
-
         
         
         //dropdown();
@@ -51,8 +61,7 @@
       })();
 
     </script>
-    <meta name="google-translate-customization" content="64188f3f7f6bcb3c-e8a06a3611953cca-g83d9ff346808c318-10"></meta>
-    
+    <meta name="google-translate-customization" content="64188f3f7f6bcb3c-e8a06a3611953cca-g83d9ff346808c318-10"></meta>    
   </head>
   <body >
     <div class="wraper"><!-- wrapper  -->
